@@ -18,11 +18,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //for-mobile-apps -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/customstyle.css" rel="stylesheet" type="text/css" media="all" />
 <!-- js -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <!-- //js -->
-<link href='//fonts.googleapis.com/css?family=Capriola' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Capriola' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amita" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet" type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
@@ -41,13 +46,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script>
  new WOW().init();
 </script>
+
 <!-- //animation-effect -->
 </head>
 
 <body>
 <!-- banner -->
-	<div class="banner">
-		<div class="header">
+	<div class="banner animated wow fadeIn" id="back">
+		<div class="header animated wow slideInDown"id="navi">
 			<div class="container">
 				<nav class="navbar navbar-default">
 					<div class="navbar-header navbar-left">
@@ -57,7 +63,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<h1><a class="navbar-brand" href="index.html"><span>Spring  Dale School</span></a></h1>
+						<h1><a class="navbar-brand" href="index.html"><span id="schoolname"><b>Spring  Dale School</b></span></a></h1>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -72,8 +78,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<ul class="nav navbar-nav">
 								<li class="active"><a href="index.html">Home</a></li>
-								<li><a href="services.html" class="hvr-bounce-to-bottom">Services</a></li>
-								<li><a href="portfolio.html" class="hvr-bounce-to-bottom">Portfolio</a></li>
+								<li><a href="services.html" class="hvr-bounce-to-bottom">Gallery</a></li>
+								<li><a href="portfolio.html" class="hvr-bounce-to-bottom">Our Team</a></li>
 								<li><a href="short-codes.html" class="hvr-bounce-to-bottom">Short Codes</a></li>
 								<li><a href="mail.html" class="hvr-bounce-to-bottom">Mail Us</a></li>
 							</ul>
@@ -83,58 +89,51 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</nav>
 			</div>
 		</div>
-		<div class="w3agile_banner_info">
-			<div class="container">
-				<h3></h3>
-				<a href="http://w3layouts.com"></a>
-			</div>
+
 		</div>
-		<div class="w3_scroll">
-			<div class="scroll-down">
-			  <span class="dot"> </span>
-			</div>
-		</div>
-		<div class="w3_banner_pos">
-			<img src="images/1.png" alt=" " class="img-responsive animated wow slideInUp" data-wow-delay=".1ms" />
-		</div>
-	</div>
+
+		<!-- <div class="w3_banner_pos">
+			<img src="images/1.png" alt=" " id='kid' class="img-responsive animated wow slideInUp" data-wow-delay=".11ms" />
+		</div> -->
+
 <!-- //banner -->
 <!-- banner-bottom -->
-	<div id="about" class="banner-bottom">
+<!-- <h3 class="head">A<span>brief description <i>about</i> Spring Dale School</span></h3> -->
+<div class="clearfix">
+</div>
+<div id="middleDiv" class="testing">
+	<h4 class="head" id="quote1">Education is not preparation for life, education is life itself. </h4>
+</div>
+
+	<!-- <div class="banner-bottom">
 		<div class="container">
-			<h3 class="head">A<span>brief description <i>about</i> Spring Dale School</span></h3>
-			<div class="agileits_banner_bottom_grids">
+
+			<div id="about" class="agileits_banner_bottom_grids">
 				<div class="col-md-6 agileits_banner_bottom_grid_l">
-					<h4>Aliquam a nunc non erat lobortis</h4>
-					<p><b><i>Vestibulum nec consequat nisl. Aliquam vehicula egestas commodo.
-						Pellentesque lorem magna, pulvinar sed lacinia et, venenatis in mi.</b></i>Nullam sodales rutrum nisl, gravida porttitor lectus porta et.
-						Duis purus arcu, semper at magna faucibus, elementum maximus ligula.
-						Etiam imperdiet posuere odio gravida vehicula. Nulla consectetur massa
-						eget tincidunt suscipit. Integer vitae ex eros. Cras ornare dignissim
-						scelerisque.</p>
+					<h4 id="ourVision"><b>Our Inspiration</b></h4>
+					<div class="wow zoomIn" data-wow-delay="2ms" id="quote1" >
+  <p class="mb-0 ">“The mind is not a vessel to be filled, but a fire to be kindled.”
+</p>
+	<div class="blockquote-reverse" id="rabindranath"> -Plutarch
+  </div>
+</div>
 				</div>
 				<div class="col-md-6 agileits_banner_bottom_grid_r">
 					<div class="agileits_banner_btm_grid_r">
-						<img src="images/3.jpg" alt=" " class="img-responsive" />
-						<div class="agileits_banner_btm_grid_r_pos">
+						<img src="images/3.jpg" alt=" " class="img-responsive animated wow zoomIn" data-wow-delay="1ms"/>
 
-						</div>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
+
 		</div>
-	</div>
-<!-- //banner-bottom -->
-<!-- banner-bottom1 -->
-	<div class="banner-bottom1">
-		<div class="col-md-6 agile_banner_bottom1_left">
-		</div>
+	</div> -->
+	<div id="firstpic" class="banner-bottom1 animated wow fadeIn">
+
 		<div class="col-md-6 agile_banner_bottom1_right">
-			<h4>Duis at enim sit amet velit mattis</h4>
-			<p>Aliquam a tellus nec leo commodo imperdiet sit amet sit amet lacus.
-				Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-				turpis egestas.</p>
+			<h4>ABOUT US</h4>
+			<p>Spring Dale school is committed to fostering excellence in education. We firmly believe that teaching is not about knowledge downloads, but opening the minds of young learners. We guide them towards learning, comprehensively focussing on the overall development of each student.</p>
 			<ul>
 				<li><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>Morbi eu velit eget libero pretium</li>
 				<li><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>Pellentesque habitant morbi</li>
@@ -144,8 +143,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li><span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>Habitant morbi tristique senectus</li>
 			</ul>
 		</div>
+
 		<div class="clearfix"> </div>
 	</div>
+<!-- //banner-bottom -->
+<!-- banner-bottom1 -->
+
+<div id="secondDiv" class="testing">
+	<h4 class="head cusStyle">Our Vision</h4>
+<p>To Ensure HOLISTIC DEVELOPMENT
+</p>
+</div>
+
+<div class="parallaxEffect">
+	<div id="blackCurtain">
+	<!-- <h3 ><span>Yuhulu</span>
+	</h3> -->
+</div>
+</div>
+
+
+
 <!-- //banner-bottom1 -->
 <!-- testimonials -->
 	<div class="testimonials">
@@ -312,6 +330,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			$().UItoTop({ easingType: 'easeOutQuart' });
 
 			});
+	</script>
+	<script>
+	var colors=["url'(../images/para.JPG)'","url'(../images/banner.jpeg)'","url'(../images/banner1.jpg)'"];
+	function run(interval,frames){
+	  var int =1;
+	  function func() {
+	    document.getElementById("back").style.background = colors[int];
+	    int++;
+	    if(int === colors.length) { int = 1; }
+	}
+	    var swap = window.setInterval(func, interval);
+	}
+	run(1000,10);
 	</script>
 <!-- //here ends scrolling icon -->
 </body>
